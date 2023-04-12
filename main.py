@@ -4,7 +4,7 @@ import tkinter as tk
 class EncryptionGUI:
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title("Encryption Program")
+        self.root.title("H3XCrypt")
 
         # Create input fields
         self.input_label = tk.Label(self.root, text="Enter text to encrypt:")
